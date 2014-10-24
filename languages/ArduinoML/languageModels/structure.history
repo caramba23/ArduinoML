@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="-1" />
+    </dependencies>
+    <rename id="njwj.6603453658766474937" type="CONCEPT" from="act" to="Actuator" />
+  </StructureModification>
+</history>
+
