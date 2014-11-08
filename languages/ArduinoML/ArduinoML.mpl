@@ -15,6 +15,7 @@
       </models>
       <external-templates />
       <dependencies>
+        <dependency reexport="false">a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
       </dependencies>
       <usedLanguages>
