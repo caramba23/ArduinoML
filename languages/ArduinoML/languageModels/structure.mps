@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="0">
+<model modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="1">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="0" implicit="yes" />
-  <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" implicit="yes" />
+  <import index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6603453658766418501" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Arduino" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -46,7 +46,11 @@
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6603453658766474934" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="pin" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6203620729197443983" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="kind" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6203620729197419699" resolveInfo="BrickKind" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6603453658766474873" nodeInfo="ig">
@@ -179,6 +183,22 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="High" />
       <property name="internalValue" nameId="tpce.1083923523171" value="HIGH" />
     </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729199237847" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Right" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="RIGHT" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729199237482" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Left" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="LEFT" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729199237505" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Up" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="UP" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729199237523" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="Down" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="DOWN" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5947772584489025128" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ActionReference" />
@@ -188,6 +208,18 @@
       <property name="role" nameId="tpce.1071599776563" value="action" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6603453658766715354" resolveInfo="Action" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6203620729197419699" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="BrickKind" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729197421498" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="DIGITAL" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6203620729197440682" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="ANALOG" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
     </node>
   </root>
 </model>
