@@ -211,9 +211,6 @@
               </node>
             </node>
             <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="6203620729199255849" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="6203620729199277277" nodeInfo="nn">
-                <property name="value" nameId="tpee.1068580320021" value="0" />
-              </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3755390211024484714" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3755390211024480596" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_node" typeId="tp1t.1147468365020" id="3755390211024479198" nodeInfo="nn" />
@@ -224,6 +221,9 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3755390211024486836" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="njwj.6203620729197443983" resolveInfo="kind" />
                 </node>
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3755390211024935259" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="0" />
               </node>
             </node>
           </node>
