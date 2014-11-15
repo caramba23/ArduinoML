@@ -14,12 +14,12 @@
       <property name="pin" nameId="njwj.6603453658766474934" value="9" />
     </node>
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="2691553813575660620" nodeInfo="ng">
-      <property name="pin" nameId="njwj.6603453658766474934" value="10" />
+      <property name="pin" nameId="njwj.6603453658766474934" value="11" />
       <property name="name" nameId="njwj.6603453658766474932" value="ledRed" />
     </node>
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="3755390211024893167" nodeInfo="ng">
       <property name="name" nameId="njwj.6603453658766474932" value="ledGreen" />
-      <property name="pin" nameId="njwj.6603453658766474934" value="11" />
+      <property name="pin" nameId="njwj.6603453658766474934" value="12" />
     </node>
     <node role="state_machine" roleId="njwj.6603453658766474901" type="njwj.StateMachine" typeId="njwj.6603453658766474873" id="2691553813575631259" nodeInfo="ng">
       <node role="states" roleId="njwj.6603453658766715417" type="njwj.State" typeId="njwj.6603453658766715235" id="4944954952475770688" nodeInfo="ng">

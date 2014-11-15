@@ -52,7 +52,7 @@
     </node>
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="3755390211026707840" nodeInfo="ng">
       <property name="name" nameId="njwj.6603453658766474932" value="led" />
-      <property name="pin" nameId="njwj.6603453658766474934" value="9" />
+      <property name="pin" nameId="njwj.6603453658766474934" value="10" />
     </node>
   </root>
 </model>
