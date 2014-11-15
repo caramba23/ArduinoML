@@ -22,7 +22,7 @@
     </node>
     <node role="state_machine" roleId="njwj.6603453658766474901" type="njwj.StateMachine" typeId="njwj.6603453658766474873" id="3755390211025110729" nodeInfo="ng">
       <node role="states" roleId="njwj.6603453658766715417" type="njwj.State" typeId="njwj.6603453658766715235" id="3755390211026621419" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="alarm" />
+        <property name="name" nameId="njwj.3930718389488571851" value="alarm" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="3755390211026621432" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="3755390211026621419" resolveInfo="alarm" />
           <link role="event" roleId="njwj.5947772584489024677" targetNodeId="3755390211026621348" resolveInfo="buttonRelease" />
@@ -63,7 +63,7 @@
         <link role="actuator" roleId="njwj.5947772584489024013" targetNodeId="3755390211026609413" resolveInfo="button" />
       </node>
       <node role="state_initial" roleId="njwj.2691553813575841901" type="njwj.State" typeId="njwj.6603453658766715235" id="3755390211025110730" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="init" />
+        <property name="name" nameId="njwj.3930718389488571851" value="init" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="3755390211026621415" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="3755390211025110730" resolveInfo="init" />
           <link role="event" roleId="njwj.5947772584489024677" targetNodeId="3755390211026621346" resolveInfo="buttonPush" />
