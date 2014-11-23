@@ -3,7 +3,9 @@
   <persistence version="8" />
   <language namespace="a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)" />
   <import index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="1" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="njwj.Arduino" typeId="njwj.6603453658766418501" id="1173392206391503644" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="extension" />
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="1173392206391813188" nodeInfo="ng">
       <property name="name" nameId="njwj.6603453658766474932" value="led" />
       <property name="pin" nameId="njwj.6603453658766474934" value="12" />

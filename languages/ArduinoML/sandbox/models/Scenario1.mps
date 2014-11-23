@@ -7,7 +7,9 @@
   <language namespace="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="1" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="njwj.Arduino" typeId="njwj.6603453658766418501" id="3755390211025110728" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="scenario 1" />
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="3755390211026609418" nodeInfo="ng">
       <property name="name" nameId="njwj.6603453658766474932" value="led" />
       <property name="pin" nameId="njwj.6603453658766474934" value="9" />

@@ -34,22 +34,21 @@
                 </node>
               </node>
             </node>
-            <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6203620729198025780" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="6203620729198049748" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1079359253376" type="tp25.PropertyNameRefExpression" typeId="tp25.5253134957341870583" id="6203620729198021469" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.5253134957341870584" targetNodeId="njwj.6603453658766474937" resolveInfo="Actuator" />
-                  <link role="propertyDeclaration" roleId="tp25.5253134957341870585" targetNodeId="njwj.6203620729197443983" resolveInfo="kind" />
+            <node role="condition" roleId="tpee.1068580123160" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="6203620729198049748" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1079359253376" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="5070212566374298116" nodeInfo="nn">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5070212566374245530" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_node" typeId="tp1t.1147468365020" id="5070212566374244071" nodeInfo="nn" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5070212566374288519" nodeInfo="nn">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="njwj.6203620729197443983" resolveInfo="kind" />
+                  </node>
                 </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6203620729198029718" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.EnumMemberValueRefExpression" typeId="tp25.6973815483243445083" id="6203620729198030430" nodeInfo="nn">
-                  <link role="enum" roleId="tp25.6973815483243564601" targetNodeId="njwj.6203620729197419699" resolveInfo="BrickKind" />
-                  <link role="member" roleId="tp25.6973815483243565416" targetNodeId="njwj.6203620729197440682" />
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5070212566374318333" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="1" />
                 </node>
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5070212566374294810" nodeInfo="nn" />
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6203620729198073528" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068581517676" type="tpee.AndExpression" typeId="tpee.1080120340718" id="6203620729198090903" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LessThanOrEqualsExpression" typeId="tpee.1153422305557" id="6203620729198094704" nodeInfo="nn">
@@ -96,18 +95,14 @@
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6203620729198140409" nodeInfo="nn" />
             </node>
-            <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6203620729198113081" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="6203620729198111729" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1079359253376" type="tp25.PropertyNameRefExpression" typeId="tp25.5253134957341870583" id="6203620729198103437" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.5253134957341870584" targetNodeId="njwj.6603453658766474904" resolveInfo="Receptor" />
-                  <link role="propertyDeclaration" roleId="tp25.5253134957341870585" targetNodeId="njwj.6203620729197443983" resolveInfo="kind" />
-                </node>
+            <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="5070212566374330099" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5070212566374331214" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="1" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6203620729198117039" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.EnumMemberValueRefExpression" typeId="tp25.6973815483243445083" id="6203620729198117742" nodeInfo="nn">
-                  <link role="enum" roleId="tp25.6973815483243564601" targetNodeId="njwj.6203620729197419699" resolveInfo="BrickKind" />
-                  <link role="member" roleId="tp25.6973815483243565416" targetNodeId="njwj.6203620729197440682" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5070212566374325956" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_node" typeId="tp1t.1147468365020" id="5070212566374325490" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5070212566374327554" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="njwj.6203620729197443983" resolveInfo="kind" />
                 </node>
               </node>
             </node>

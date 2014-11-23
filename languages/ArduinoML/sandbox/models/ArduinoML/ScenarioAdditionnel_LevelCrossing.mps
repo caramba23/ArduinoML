@@ -7,7 +7,9 @@
   <language namespace="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="njwj" modelUID="r:04a6934a-c553-4c28-b7a0-2f6ceb94de8d(ArduinoML.structure)" version="1" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="njwj.Arduino" typeId="njwj.6603453658766418501" id="1599331549631701617" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="level crossing" />
     <node role="receptors" roleId="njwj.6437534597636095217" type="njwj.Receptor" typeId="njwj.6603453658766474904" id="1599331549631726376" nodeInfo="ng">
       <property name="name" nameId="njwj.6603453658766474932" value="redLight" />
       <property name="pin" nameId="njwj.6603453658766474934" value="10" />
@@ -26,7 +28,7 @@
     </node>
     <node role="state_machine" roleId="njwj.6603453658766474901" type="njwj.StateMachine" typeId="njwj.6603453658766474873" id="1599331549631701618" nodeInfo="ng">
       <node role="states" roleId="njwj.6603453658766715417" type="njwj.State" typeId="njwj.6603453658766715235" id="1599331549631726415" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="barrier_open" />
+        <property name="name" nameId="njwj.3930718389488571851" value="barrier_open" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="1599331549631726456" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="1599331549631726415" resolveInfo="barrier_open" />
           <link role="event" roleId="njwj.5947772584489024677" targetNodeId="1599331549631726383" resolveInfo="barrierDown" />
@@ -45,7 +47,7 @@
         </node>
       </node>
       <node role="states" roleId="njwj.6603453658766715417" type="njwj.State" typeId="njwj.6603453658766715235" id="1599331549631726423" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="alarm_red" />
+        <property name="name" nameId="njwj.3930718389488571851" value="alarm_red" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="1599331549631726480" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="1599331549631726423" resolveInfo="alarm_red" />
           <link role="event" roleId="njwj.5947772584489024677" targetNodeId="1599331549631726390" resolveInfo="alarmRelease" />
@@ -63,7 +65,7 @@
         </node>
       </node>
       <node role="states" roleId="njwj.6603453658766715417" type="njwj.State" typeId="njwj.6603453658766715235" id="1599331549631726427" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="alarm_green" />
+        <property name="name" nameId="njwj.3930718389488571851" value="alarm_green" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="1599331549631726502" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="1599331549631726427" resolveInfo="alarm_green" />
           <link role="event" roleId="njwj.5947772584489024677" targetNodeId="1599331549631726390" resolveInfo="alarmRelease" />
@@ -117,7 +119,7 @@
         <link role="actuator" roleId="njwj.5947772584489024013" targetNodeId="1599331549631701679" resolveInfo="alarmButton" />
       </node>
       <node role="state_initial" roleId="njwj.2691553813575841901" type="njwj.State" typeId="njwj.6603453658766715235" id="1599331549631701619" nodeInfo="ng">
-        <property name="name" nameId="njwj.3489927026365485414" value="barrier_close" />
+        <property name="name" nameId="njwj.3930718389488571851" value="barrier_close" />
         <node role="transitions" roleId="njwj.1449878858754192409" type="njwj.Transition" typeId="njwj.6603453658766715263" id="1599331549631726441" nodeInfo="ng">
           <link role="source" roleId="njwj.2691553813575403252" targetNodeId="1599331549631701619" resolveInfo="barrier_close" />
           <link role="target" roleId="njwj.5947772584489024672" targetNodeId="1599331549631726415" resolveInfo="barrier_open" />

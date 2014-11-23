@@ -7,14 +7,21 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="KonamiArduinoML#3930718389489350978" uuid="6d6edcb4-f1b6-4122-b575-26e708e997f5">
+    <generator name="" generatorUID="KonamiArduinoML#3930718389489350978" uuid="6d6edcb4-f1b6-4122-b575-26e708e997f5">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot path="${module}/generator/template" />
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">62cce7b4-73ba-42e3-a607-e5796d5cd4c8(ArduinoML.sandbox)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">254296ba-516e-4f0b-af47-8c092100dd2d(KonamiArduinoML)</dependency>
+        <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
+      </dependencies>
       <usedLanguages>
+        <usedLanguage>a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)</usedLanguage>
         <usedLanguage>254296ba-516e-4f0b-af47-8c092100dd2d(KonamiArduinoML)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
@@ -27,14 +34,15 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)</dependency>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+    <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
-  <usedLanguages>
-    <usedLanguage>a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)</usedLanguage>
-  </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>a2972a4d-fe83-4d24-b15a-90c11d704033(ArduinoML)</extendedLanguage>
+    <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
